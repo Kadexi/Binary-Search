@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD0EE8B31C1849970072EA08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD0EE8B21C1849970072EA08 /* main.cpp */; };
+		DD2E55191C2044E20000B31E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD2E55181C2044E20000B31E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DD0EE8AF1C1849970072EA08 /* binary_search_v2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = binary_search_v2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0EE8B21C1849970072EA08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD2E55181C2044E20000B31E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		DD0EE8A61C1849970072EA08 = {
 			isa = PBXGroup;
 			children = (
+				DD2E55181C2044E20000B31E /* README.md */,
 				DD0EE8B11C1849970072EA08 /* binary_search_v2 */,
 				DD0EE8B01C1849970072EA08 /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2E55191C2044E20000B31E /* README.md in Sources */,
 				DD0EE8B31C1849970072EA08 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +241,7 @@
 				DD0EE8B81C1849970072EA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
